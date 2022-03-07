@@ -2,7 +2,7 @@
   "name": "test-semantic-release",
   "version": "0.0.0",
   "description": ">Test deployment actions  - [semantic release](https://github.com/cycjimmy/semantic-release-action)",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/jpbnetley/test-semantic-release.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "jpbnetley",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jpbnetley/test-semantic-release/issues"
