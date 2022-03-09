@@ -1,5 +1,5 @@
 {
-  "name": "test-semantic-release",
+  "name": "jpbnetley@test-semantic-release",
   "version": "0.0.0",
   "description": ">Test deployment actions  - [semantic release](https://github.com/cycjimmy/semantic-release-action)",
   "main": "src/index.js",
