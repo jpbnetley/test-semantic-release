@@ -30,8 +30,6 @@ jobs:
         id: semantic
         with:
           branch: 'main'
-          # working_directory: 'dist'
-          working_directory: 'src'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
