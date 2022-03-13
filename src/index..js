@@ -1,1 +1,1 @@
-import { f1 } from './f1'
+export { f1, f2 } from './f1'
