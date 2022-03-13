@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/jpbnetley/test-semantic-release#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@jpbnetley"
+    "@jpbnetley:registry": "https://npm.pkg.github.com"
   }
 }
