@@ -4,5 +4,5 @@
 
  ## FAQ:
  - to add a breaking change, add a body containing `BREAKING CHANGE`
-  exanple:
+  example:  
   `git commit -m 'fix(f1): prints out input var' -m 'BREAKING CHANGE: added f1 input param'`
