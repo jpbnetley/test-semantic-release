@@ -2,8 +2,12 @@
   "name": "@jpbnetley/test-semantic-release",
   "version": "0.0.0",
   "description": ">Test deployment actions  - [semantic release](https://github.com/cycjimmy/semantic-release-action)",
-  "main": "src/index.js",
-  "scripts": {
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+    "scripts": {
+      "watch": "parcel watch",
+      "build": "parcel build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +23,8 @@
   "homepage": "https://github.com/jpbnetley/test-semantic-release#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "parcel": "^2.4.0"
   }
 }

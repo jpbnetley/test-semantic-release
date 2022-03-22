@@ -1,0 +1,1 @@
+export { f1, f2 } from './f1'
