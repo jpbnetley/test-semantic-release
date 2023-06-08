@@ -5,11 +5,11 @@
   "source": "src/index.js",
   "main": "dist/main.js",
   "module": "dist/module.js",
-    "scripts": {
-      "watch": "parcel watch",
-      "build": "parcel build",
-      "prepublishOnly": "npm run build",
-      "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,6 @@
     "registry": "https://npm.pkg.github.com"
   },
   "devDependencies": {
-    "parcel": "^2.4.0"
+    "parcel": "^2.9.1"
   }
 }
