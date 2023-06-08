@@ -5,7 +5,9 @@ name: Publish package to Github
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: 
+      - main
+      - staging
 
 concurrency:
   group: ${{ github.ref }}
@@ -23,9 +25,14 @@ jobs:
         uses: cycjimmy/semantic-release-action@v3
         id: semantic
         with:
-          branch: 'main'
-          #working_directory: 'dist'
-          # working_directory: 'src'
+          branch: |
+            [
+              'main',
+              {
+                name: 'staging',
+                prerelease: true
+              }
+            ]
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
