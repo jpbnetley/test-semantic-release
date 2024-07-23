@@ -26,6 +26,6 @@
     "registry": "https://npm.pkg.github.com"
   },
   "devDependencies": {
-    "parcel": "^2.9.1"
+    "parcel": "^2.12.0"
   }
 }
