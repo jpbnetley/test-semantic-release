@@ -2,6 +2,10 @@
  >Test deployment actions
  - [semantic release](https://github.com/cycjimmy/semantic-release-action)
 
+## Notes
+- [Symantec versioning](https://semver.org/)
+- [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
+
 ## Pre-requisites
 > In the package json file where the composite action gets implemented
 - name needs to be scoped: eg `"name": "@jpbnetley/ui",`
