@@ -1,6 +1,7 @@
 {
   "name": "@jpbnetley/test-semantic-release",
   "version": "0.0.0",
+  "type": "module",
   "description": ">Test deployment actions  - [semantic release](https://github.com/cycjimmy/semantic-release-action)",
   "source": "src/index.js",
   "main": "dist/main.js",
@@ -26,6 +27,6 @@
     "registry": "https://npm.pkg.github.com"
   },
   "devDependencies": {
-    "parcel": "^2.12.0"
+    "parcel": "^2.16.0"
   }
 }
